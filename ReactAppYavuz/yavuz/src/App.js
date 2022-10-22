@@ -45,17 +45,17 @@ function App() {
               </div>
               <div className="col-sm-6">
                 <div className="card text-center bg-danger py-3 my-2">
-                  <Fahrenheit/> <h1><span id='F' className='deger'>{fahrenheit}</span> °F</h1>
+                  <Fahrenheit tittle={fahrenheit}/>
                 </div>
               </div>
               <div className="col-sm-6">
                 <div className="card text-center bg-danger py-3 my-2">
-                  <Kelvin /> <h1>{kelvin} K</h1>
+                  <Kelvin tittle={kelvin}/>
                 </div>
               </div>
             </div>
 
-            <h2 className="my-3"><Celcius/> <h1>{celcius} °C</h1></h2>
+            <h2 className="my-3"><Celcius tittle={celcius}/></h2>
             
             <div className="btn-group">
               <button className="btn btn-success" onClick={() => (
