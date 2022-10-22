@@ -4,7 +4,7 @@ export default class Kelvin extends Component {
     render() {
         return (
             <div>
-                <h2>Kelvin Değeri</h2>
+                <h2>Kelvin Değeri {this.props.tittle} K</h2>
             </div>
         )
     }
